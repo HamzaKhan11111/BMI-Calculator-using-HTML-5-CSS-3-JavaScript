@@ -1,0 +1,47 @@
+h1,h3,#exp
+{
+    font-family:'Franklin Gothic Medium';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+#result
+{
+    font-family:'Franklin Gothic Medium';
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    font-size: 40px;
+}
+input
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    border: 0.5px solid black;
+}
+#sub
+{
+    color: white;
+    background-color: mediumseagreen;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+#sub:hover
+{
+    background-color: darkgreen;
+}
+#box
+{
+    border: 1.5px solid black;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    padding:  5px;
+    padding-bottom: 100px;
+    box-shadow: 2px 2px 5px 2px black;
+}

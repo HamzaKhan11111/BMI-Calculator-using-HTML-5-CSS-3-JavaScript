@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body style="background-color:rgb(101, 205, 148);">
+    <div id="box" style="background-color:snow;">
+        <form>
+            <div>
+                <h1>
+                    BMI Calculator
+                </h1>
+            </div>
+            <div>
+                <h3>
+                    Weight(kg): 
+                </h3>
+                <input type="text" id="weight" required>
+            </div>
+            <div>
+                <h3>
+                    Height(meters): 
+                </h3>
+                <input type="text" id="height" required>
+            </div>
+            <br/>
+            <br/>
+            <div>
+                <input type="submit" value="Calculate" id="sub" onclick="Calculate(); return false;">
+                <!-- <button type="button" onclick="Calculate()">hello</button> -->
+            </div>
+            <div id="result"></div>
+            <div id="exp"></div>
+        </form>
+    </div>
+    
+</body>
+</html>
